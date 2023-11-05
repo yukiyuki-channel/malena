@@ -1,0 +1,179 @@
+@charset "utf-8";
+
+/* ✼••┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈••✼
+      common
+✼••┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈••✼ */
+
+body {
+  background-color: beige;
+  width: 390px;
+  font-family: 'Lobster', sans-serif;
+  font-family: 'Playfair Display', serif;
+}
+
+ul {
+  list-style: none;
+}
+
+div p span {
+  font-size: 12px;
+  display: inline-block;
+  margin-bottom: 6px;
+}
+
+/* ✼••┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈••✼
+      header
+✼••┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈••✼ */
+
+header {
+  background-color: lightpink;
+}
+
+.header-logo {
+  display: flex;
+}
+
+.header-name {
+  margin-top: 8px;
+  margin-left: 4px;
+  /* line-height: 1.4; */
+}
+
+nav ul {
+  display: flex;
+  width: auto;
+  margin-top: 16px;
+}
+
+nav ul li {
+  margin: 0 auto;
+  font-weight: bold;
+}
+
+/* ✼••┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈••✼
+      main
+✼••┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈••✼ */
+
+h2 img {
+  width: 100%;
+  height: 230px;
+  position: relative;
+}
+
+h2 {
+  margin-top: 10px;
+}
+
+.main-text {
+  position: absolute;
+  top: 240px;
+  left: 16px;
+  font-size: 14px;
+}
+
+.container {
+  width: 100%;
+  margin: 0 16px;
+}
+
+/* ••┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈••
+      Menu
+••┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈•• */
+
+.menu {
+  display: flex;
+  margin-top: 8px;
+}
+
+.menu img {
+  border-radius: 5px;
+}
+
+.menu-list {
+  background-color: rgba(168, 96, 181, 0.8);
+  border-radius: 5px;
+  width: 180px;
+  height: 90px;
+  text-align: center;
+}
+
+.menu-list p {
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.menu-list li {
+  font-size: 10px;
+}
+
+
+
+/* ••┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈••
+      Esthetician
+••┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈•• */
+
+.esthetician {
+  display: flex;
+  margin-top: 4px;
+}
+
+.esthetician p {
+  font-size: 12px;
+}
+
+.esthetician-img img {
+  margin-left: 4px;
+}
+
+.esthetician-img p {
+  text-align: center;
+}
+
+
+/* ••┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈••
+      Salon
+••┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈•• */
+.salon {
+  line-height: 1.6;
+}
+
+.adress {
+  display: flex;
+}
+
+iframe {
+  width: 100%;
+}
+
+
+
+.reserve {
+  display: flex;
+}
+
+.reserve img {
+  margin-left: 16px;
+}
+
+
+/* ✼••┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈••✼
+      footer
+✼••┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈••✼ */
+
+.copyright {
+  text-align: center;
+  margin-top: 32px;
+}
+
+
+/* ✼••┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈••✼
+      PC用 391px<= width
+✼••┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈••✼ */
+@media (min-width: 391px) {
+
+  body {
+    background-color: aqua;
+  }
+
+
+}
