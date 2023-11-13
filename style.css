@@ -178,7 +178,7 @@ iframe {
   display: flex;
 }
 
-#salon div p:nth-child(2) {
+.contact div p:nth-child(2) {
   font-size: 10px;
   margin-bottom: 6px;
   margin-left: 16px;
