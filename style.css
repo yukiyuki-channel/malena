@@ -4,64 +4,87 @@
       common
 ✼••┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈••✼ */
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  background-color: beige;
+  background-color: rgba(211, 211, 211, 0.568);
   width: 390px;
   font-family: 'Lobster', sans-serif;
   font-family: 'Playfair Display', serif;
+  vertical-align: bottom;
+  color: #111;
+}
+
+header,
+footer {
+  background-color: rgba(133, 6, 188, 0.9);
 }
 
 ul {
   list-style: none;
 }
 
-div p span {
-  font-size: 12px;
-  display: inline-block;
-  margin-bottom: 6px;
+a {
+  text-decoration: none;
+  color: inherit;
 }
+
+h2 {
+  margin-top: 10px;
+  color: #ebc745;;
+}
+
+.header-name p a:hover,
+nav ul li:hover,
+.menu-list p a:hover {
+  opacity: 0.7;
+}
+
 
 /* ✼••┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈••✼
       header
 ✼••┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈••✼ */
-
-header {
-  background-color: lightpink;
-}
 
 .header-logo {
   display: flex;
 }
 
 .header-name {
-  margin-top: 8px;
   margin-left: 4px;
-  /* line-height: 1.4; */
+  color: #ebc745;
+}
+
+.header-name p:nth-child(1) {
+  margin-top: 16px;
+}
+
+.header-name p:nth-child(2) {
+  font-size: 6px;
 }
 
 nav ul {
   display: flex;
   width: auto;
-  margin-top: 16px;
+  margin-top: 8px;
 }
 
 nav ul li {
   margin: 0 auto;
   font-weight: bold;
+  color: #ebc745;
 }
+
 
 /* ✼••┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈••✼
       main
 ✼••┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈••✼ */
 
-h2 img {
+main div img {
   width: 100%;
   height: 230px;
   position: relative;
-}
-
-h2 {
-  margin-top: 10px;
 }
 
 .main-text {
@@ -73,7 +96,7 @@ h2 {
 
 .container {
   width: 100%;
-  margin: 0 16px;
+  margin: 0 8px;
 }
 
 /* ••┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈••
@@ -87,12 +110,15 @@ h2 {
 
 .menu img {
   border-radius: 5px;
+  width: 40%;
+  height: 90px;
+  /* display: inline-block; */
 }
 
 .menu-list {
-  background-color: rgba(168, 96, 181, 0.8);
+  background-color: rgba(175, 29, 224, 0.7);
   border-radius: 5px;
-  width: 180px;
+  width: 40%;
   height: 90px;
   text-align: center;
 }
@@ -100,13 +126,12 @@ h2 {
 .menu-list p {
   font-size: 14px;
   margin-top: 4px;
+  color: #ebc745;
 }
 
 .menu-list li {
   font-size: 10px;
 }
-
-
 
 /* ••┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈••
       Esthetician
@@ -118,22 +143,25 @@ h2 {
 }
 
 .esthetician p {
-  font-size: 12px;
+  font-size: 10px;
+  width: 60%;
 }
 
 .esthetician-img img {
   margin-left: 4px;
+  width: 100px;
+  height: 110px;
 }
 
 .esthetician-img p {
+  margin: 0 auto;
   text-align: center;
 }
-
 
 /* ••┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈••
       Salon
 ••┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈•• */
-.salon {
+#salon {
   line-height: 1.6;
 }
 
@@ -142,17 +170,24 @@ h2 {
 }
 
 iframe {
-  width: 100%;
+  width: 95%;
 }
 
-
-
-.reserve {
+.contact {
   display: flex;
 }
 
-.reserve img {
+#salon div p:nth-child(2) {
+  font-size: 10px;
+  margin-bottom: 6px;
   margin-left: 16px;
+}
+
+.contact img {
+  margin-left: 6px;
+  margin-top: 12px;
+  width: 100px;
+  height: 100px;
 }
 
 
@@ -160,9 +195,60 @@ iframe {
       footer
 ✼••┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈••✼ */
 
+footer {
+  color: #ebc745;
+  margin-top: 30px;
+}
+
 .copyright {
+  font-size: 10px;
   text-align: center;
+  padding: 14px 0;
+
+}
+
+
+
+/* ✼••┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈••✼
+      body.html
+✼••┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈••✼ */
+
+section.container h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  border-bottom: 2px solid rgba(133, 6, 188, 0.9);
+}
+
+.salon-menu dl {
+  margin-top: 8px;
+}
+
+.salon-menu dt {
+  font-weight: bold;
+  font-size: 14px;
+  color: #ebc745;
+}
+
+.salon-menu dd {
+  font-size: 12px;
+}
+
+.salon-menu dl dt span {
+  font-size: 12px;
+  padding-left: 8px;
+}
+
+.another-list {
+  border-bottom: 1px solid rgba(133, 6, 188, 0.9);
   margin-top: 32px;
+}
+
+/* ✼••┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈••✼
+      femcare.html
+✼••┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈••✼ */
+
+.femcare-menu {
+  text-align: center;
 }
 
 
@@ -172,7 +258,7 @@ iframe {
 @media (min-width: 391px) {
 
   body {
-    background-color: aqua;
+    /* background-color: rgb(153, 242, 242); */
   }
 
 
