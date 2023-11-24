@@ -6,12 +6,12 @@
 
 html {
   scroll-behavior: smooth;
-  cursor: pointer;
+  font-size: 16px;
 }
 
 body {
   background-color: rgba(211, 211, 211, 0.568);
-  width: 390px;
+  width: 100%;
   font-family: 'Lobster', sans-serif;
   font-family: 'Playfair Display', serif;
   vertical-align: bottom;
@@ -23,6 +23,10 @@ footer {
   background-color: rgba(133, 6, 188, 0.9);
 }
 
+img {
+  object-fit: cover;
+}
+
 ul {
   list-style: none;
 }
@@ -30,12 +34,11 @@ ul {
 a {
   text-decoration: none;
   color: inherit;
-
 }
 
 h2 {
-  margin-top: 10px;
-  color: #ebc745;;
+  margin-top: 1rem;
+  color: #fbc916;;
 }
 
 .header-name p a:hover,
@@ -54,28 +57,29 @@ nav ul li:hover,
 }
 
 .header-name {
-  margin-left: 4px;
-  color: #ebc745;
+  margin-left: 0.25rem;
+  color: #fbc916;
 }
 
 .header-name p:nth-child(1) {
-  margin-top: 16px;
+  margin-top: 1rem;
+  font-size: 1.2rem;
 }
 
 .header-name p:nth-child(2) {
-  font-size: 6px;
+  font-size: 0.4rem;
 }
 
 nav ul {
   display: flex;
   width: auto;
-  margin-top: 8px;
+  margin-top: 0.5rem;
 }
 
 nav ul li {
   margin: 0 auto;
   font-weight: bold;
-  color: #ebc745;
+  color: #fbc916;
 }
 
 
@@ -85,20 +89,21 @@ nav ul li {
 
 main div img {
   width: 100%;
-  height: 230px;
+  height: 16rem;
   position: relative;
 }
 
 .main-text {
   position: absolute;
-  top: 240px;
-  left: 16px;
-  font-size: 14px;
+  top: 17rem;
+  left: 1rem;
+  font-size: 0.8rem;
 }
 
 .container {
   width: 100%;
-  margin: 0 8px;
+  margin: 2rem auto 0;
+  padding: 0 0.5rem;
 }
 
 /* ••┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈••
@@ -107,32 +112,32 @@ main div img {
 
 .menu {
   display: flex;
-  margin-top: 8px;
+  margin-top: 0.5rem;
 }
 
 .menu img {
   border-radius: 5px;
   width: 40%;
-  height: 90px;
-  /* display: inline-block; */
+  height: 7rem;
 }
 
 .menu-list {
   background-color: rgba(175, 29, 224, 0.7);
   border-radius: 5px;
-  width: 40%;
-  height: 90px;
+  width: 50%;
+  height: 7rem;
   text-align: center;
 }
 
 .menu-list p {
-  font-size: 14px;
-  margin-top: 4px;
-  color: #ebc745;
+  font-size: 0.8rem;
+  margin-top: 0.25rem;
+  color: #fbc916;
 }
 
 .menu-list li {
-  font-size: 10px;
+  font-size: 0.6rem;
+  font-weight: bold;
 }
 
 /* ••┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈••
@@ -141,23 +146,24 @@ main div img {
 
 .esthetician {
   display: flex;
-  margin-top: 4px;
+  margin-top: 0.25rem;
 }
 
 .esthetician p {
-  font-size: 10px;
+  font-size: 0.6rem;
   width: 60%;
 }
 
 .esthetician-img img {
-  margin-left: 4px;
-  width: 100px;
-  height: 110px;
+  margin-left: 0.25rem;
+  width: 100%;
+  height: 9rem;
 }
 
 .esthetician-img p {
   margin: 0 auto;
   text-align: center;
+  font-size: 1rem;
 }
 
 /* ••┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈••
@@ -180,16 +186,16 @@ iframe {
 }
 
 .contact div p:nth-child(2) {
-  font-size: 10px;
-  margin-bottom: 6px;
-  margin-left: 16px;
+  font-size: 0.6rem;
+  margin-bottom: 0.5rem;
+  margin-left: 1rem;
 }
 
 .contact img {
-  margin-left: 6px;
-  margin-top: 12px;
-  width: 100px;
-  height: 100px;
+  margin-left: 0.5rem;
+  margin-top: 0.75rem;
+  width: 8rem;
+  height: 8rem;
 }
 
 
@@ -198,17 +204,15 @@ iframe {
 ✼••┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈••✼ */
 
 footer {
-  color: #ebc745;
-  margin-top: 30px;
+  color: #fbc916;
+  margin-top: 1.5rem;
 }
 
 .copyright {
-  font-size: 10px;
+  font-size: 0.6rem;
   text-align: center;
-  padding: 14px 0;
-
+  padding: 0.75rem 0;
 }
-
 
 
 /* ✼••┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈••✼
@@ -217,37 +221,40 @@ footer {
 
 section.container h2 {
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 0.75rem;
   border-bottom: 2px solid rgba(133, 6, 188, 0.9);
 }
 
 .salon-menu dl {
-  margin-top: 8px;
+  margin-top: 0.5rem;
 }
 
 .salon-menu dt {
   font-weight: bold;
-  font-size: 14px;
-  color: #ebc745;
+  font-size: 0.9rem;
+  color: #fbc916;
 }
 
 .salon-menu dd {
-  font-size: 12px;
+  font-size: 0.8rem;
 }
 
 .salon-menu dl dt span {
-  font-size: 12px;
-  padding-left: 8px;
+  font-size: 0.8rem;
+  padding-left: 0.5rem;
 }
 
 .another-list {
   border-bottom: 1px solid rgba(133, 6, 188, 0.9);
-  margin-top: 32px;
+  margin: 2rem 3rem 0;
 }
 
 /* ✼••┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈••✼
       femcare.html
 ✼••┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈••✼ */
+.femcare-menu img {
+  width: 80%;
+}
 
 .femcare-menu {
   text-align: center;
@@ -255,12 +262,55 @@ section.container h2 {
 
 
 /* ✼••┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈••✼
-      PC用 391px<= width
+      PC用 768px<= width
 ✼••┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈••✼ */
-@media (min-width: 391px) {
+@media (min-width: 768px) {
+
+  html {
+    font-size: 20px;
+  }
 
   body {
-    /* background-color: rgb(153, 242, 242); */
+    width: auto;
+    background-color: rgba(216, 112, 147, 0.182);
+  }
+
+  h2 {
+    font-size: 1.9rem;
+  }
+
+  .header-name p:nth-child(1) {
+    margin-top: 8px;
+    font-size: 1.2rem;
+  }
+
+  nav ul li {
+    font-size: 1rem;
+  }
+
+  main div img {
+    height:20rem;
+  }
+
+  .main-text {
+    font-size: 1rem;
+  }
+
+  .menu img,
+  .menu-list {
+    height: 240px;
+  }
+
+  .menu-list p {
+    font-size: 1.5rem;
+  }
+
+  .menu-list li {
+    font-size: 1.2rem;
+  }
+
+  .esthetician p {
+    font-size: 1rem;
   }
 
 
