@@ -118,14 +118,14 @@ main div img {
 .menu img {
   border-radius: 5px;
   width: 40%;
-  height: 7rem;
+  height: 8rem;
 }
 
 .menu-list {
   background-color: rgba(175, 29, 224, 0.7);
   border-radius: 5px;
   width: 50%;
-  height: 7rem;
+  height: 8rem;
   text-align: center;
 }
 
@@ -156,7 +156,7 @@ main div img {
 
 .esthetician-img img {
   margin-left: 0.25rem;
-  width: 100%;
+  /* width: 100%; */
   height: 9rem;
 }
 
