@@ -145,27 +145,20 @@ main div img {
 ••┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈•• */
 
 .esthetician {
-  display: flex;
   margin-top: 0.25rem;
 }
 
 .esthetician p {
   font-size: 0.6rem;
-  width: 50%;
-}
-
-.esthetician-img {
-  /* width: 40%; */
 }
 
 .esthetician-img img {
   margin-left: 0.25rem;
-  height: 9rem;
+  width: 60%;
 }
 
 .esthetician-img p {
-  margin: 0 auto;
-  text-align: center;
+  margin-left: 5rem;
   font-size: 1rem;
 }
 
@@ -191,7 +184,7 @@ iframe {
 .contact div p:nth-child(2) {
   font-size: 0.6rem;
   margin-bottom: 0.5rem;
-  margin-left: 1rem;
+  margin-left: 2rem;
 }
 
 .contact img {
@@ -310,6 +303,10 @@ section.container h2 {
 
   .menu-list li {
     font-size: 1.2rem;
+  }
+
+  .esthetician {
+    display: flex;
   }
 
   .esthetician p {
