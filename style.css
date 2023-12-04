@@ -151,11 +151,11 @@ main div img {
 
 .esthetician p {
   font-size: 0.6rem;
-  width: 60%;
+  width: 50%;
 }
 
 .esthetician-img {
-  width: 40%;
+  /* width: 40%; */
 }
 
 .esthetician-img img {
