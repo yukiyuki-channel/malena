@@ -154,7 +154,8 @@ main div img {
 
 .esthetician-img img {
   margin-left: 0.25rem;
-  width: 60%;
+  width: 15rem;
+  height: 15rem;
 }
 
 .esthetician-img p {
@@ -307,6 +308,7 @@ section.container h2 {
 
   .esthetician {
     display: flex;
+
   }
 
   .esthetician p {
