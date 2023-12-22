@@ -62,7 +62,7 @@ nav ul li:hover,
 }
 
 .header-name p:nth-child(1) {
-  margin-top: 1rem;
+  margin-top: 0.9rem;
   font-size: 1.2rem;
 }
 
@@ -294,7 +294,7 @@ section.container h2 {
 
   .menu img,
   .menu-list {
-    height: 240px;
+    height: 280px;
   }
 
   .menu-list p {
